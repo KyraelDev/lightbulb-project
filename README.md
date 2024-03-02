@@ -1,14 +1,9 @@
-# lightbulb-project
+# lightbulb-project-omori
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+In this tribute project I try to recreate the experience of emptiness felt by the player inside "Omori" game, an RPG like game based upon psychological thought.
+This is a work in progress, and I am currently using Vue.Js to handle the project itself.
+Any sounds, artwork and fonts used in this project DO NOT BELONG TO ME. I just used them for the sake of the project and get the same feeling. 
+Shout out to the creators of Omori.
 
 ## Project Setup
 
@@ -20,10 +15,4 @@ npm install
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
