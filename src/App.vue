@@ -9,11 +9,11 @@
   </header>
 
   <RouterView />
-  <footer class="absolute bottom-0 left-0 w-full">
+  <footer class="absolute bottom-0 left-0 w-full overflow-hidden">
   <div class="testo-omori-game2">
-    <nav class="h-[40px] flex justify-start items-center p-4 mx-6 bg-black text-white relative z-40">
-      <!-- Contenuto del footer -->
-    </nav>
+    <div class="h-[40px] flex justify-start items-center px-4 mx-6 bg-black text-white relative z-40 text-[20px]">
+      Copyright KyraDev 2024 ~ Marcello A. Licciardello
+    </div>
   </div>
 </footer>
 

@@ -14,9 +14,10 @@
 
   <div 
     v-show="lampadinaCliccata"
-    class="schermo-nero testo-omori-game2">
-    <p class="text-6xl mb-6">Why did you turn the light off?</p>
-    <button @click="toggleLampadina" class="btn-riaccendi rounded-full p-4 hover:scale-105 transition-transform">I'm afraid of the dark... Please bring me to light.</button>
+    class="schermo-nero testo-omori-game2 justify-center items-center flex-col">
+    <p class="text-6xl relative bottom-[200px]">Why did you turn the light off?</p>
+    <p class="text-6xl relative bottom-[100px]">Aren't you scared?</p>
+    <button @click="toggleLampadina" class="btn-riaccendi rounded-full p-4 hover:scale-105 transition-transform">I'm afraid of darkness... Please bring me to light.</button>
   </div>
 
   <audio ref="audio" loop>
@@ -91,10 +92,6 @@ export default {
   color: black;
   border: none;
   cursor: pointer;
-}
-
-.custom-cursor {
-  cursor: url('../assets/imgs/cursorebase.png'), auto;
 }
 
 .testo-omori-game2 {
