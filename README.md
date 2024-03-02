@@ -5,6 +5,8 @@ This is a work in progress, and I am currently using Vue.Js to handle the projec
 Any sounds, artwork and fonts used in this project DO NOT BELONG TO ME. I just used them for the sake of the project and get the same feeling. 
 Shout out to the creators of Omori.
 
+Sorry if the audio doesn't play right, it's a little buggy and I'm working on improving it (or at least understand why it breaks).
+
 ## Project Setup
 
 ```sh
