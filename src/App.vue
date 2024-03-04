@@ -4,6 +4,7 @@
       <nav class="h-[40px] flex justify-start items-center p-4 mx-6 bg-black text-white relative z-40 testo-omori-game2">
         <RouterLink class="m-4 testo-omori-game2" to="/">Home</RouterLink>
         <RouterLink class="m-4 testo-omori-game2" to="/about">About</RouterLink>
+        <RouterLink class="m-4 testo-omori-game2" to="/whitespace">White Space</RouterLink>
       </nav>
     </div>
   </header>
@@ -30,9 +31,5 @@ export default {
 .testo-omori-game2 {
   font-family: 'OmoriGame2', sans-serif;
   font-size: xx-large;
-}
-
-.custom-cursor {
-  cursor: url('../assets/imgs/cursorebase.png'), auto;
 }
 </style>
